@@ -18,15 +18,28 @@ par(mfrow=c(2,2), cex=0.75)
 
 with(gooddata, {
     
-    plot(Time,Global_active_power,type="l",main="",ylab="Global Active Power")
-    plot(Time,Voltage,ylab="Voltage",type="l",xlab="datetime")
-    plot(Time,Sub_metering_1, 
+    plot(Time,
+         Global_active_power,
+         type="l",
+         main="",
+         ylab="Global Active Power",
+         xlab="")
+    
+    
+    plot(Time,
+         Voltage,
+         ylab="Voltage",
+         type="l",
+         xlab="datetime")
+    
+    
+    plot(Time,
+         Sub_metering_1, 
          col=c("black","red","blue"),
          type="l",
          main="",
          ylab="Energy sub metering",
          xlab="")
-    
     points(Time,Sub_metering_2,type="l",col="red")
     points(Time,Sub_metering_3,type="l",col="blue")
     legend("topright", 
@@ -35,7 +48,11 @@ with(gooddata, {
            col = c("black", "red","blue"), 
            legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
     
-    plot(Time,Global_reactive_power,type="l",xlab="datetime")
+    
+    plot(Time,
+         Global_reactive_power,
+         type="l",
+         xlab="datetime")
 })
 
 dev.off()

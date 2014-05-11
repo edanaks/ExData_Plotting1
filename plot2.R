@@ -22,5 +22,4 @@ with(gooddata,plot(Time,
                    ylab="Global Active Power (kilowatts)",
                    xlab=""))
 
-#dev.copy(png,file=file.path(directory,"plot2.png"))
 dev.off()
