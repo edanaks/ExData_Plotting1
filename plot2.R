@@ -1,7 +1,3 @@
-if("sqldf" %in% rownames(installed.packages()) == FALSE) install.packages("sqldf")
-library(sqldf)
-
-
 directory <- "ExData_Plotting1" #for saving images
 
 datapath <- file.path("household_power_consumption.txt")
