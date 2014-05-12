@@ -1,11 +1,12 @@
 # Please Note:
 
+*This note is taken verbatim from https://class.coursera.org/exdata-002/forum/thread?thread_id=46 since it pertains to my submission*
+
 I decided to make the background of the four plots **transparent** in order to reproduce the reference plots exactly using the "bg" parameter taught in the slide 10 of "The Base Plotting System in R" presentation of the course (e.g., for the Plot 1, see the Instructor's repository image 
 https://github.com/rdpeng/ExData_Plotting1/blob/master/figure/unnamed-chunk-2.png
 ). 
 Please consider that the plots in the Instructor's README file (https://github.com/rdpeng/ExData_Plotting1) are shown with a white background, even when all the plots have in reality a **transparent** one.  When a transparent image is overlaid on a white background, it seems to have this background color.
 
-(This note is taken from https://class.coursera.org/exdata-002/forum/thread?thread_id=46 since it pertains to my submission.)
 
 
 ## Introduction
